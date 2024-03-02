@@ -1,0 +1,114 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #D5E1E4; /* Light gray background */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-style: bold;
+}
+
+.section {
+    margin-bottom: 100px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.actions {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.actions button,
+.delete-btn,
+.add-btn,
+.edit-btn {
+    padding: 10px 20px; /* Equal padding for all buttons */
+    margin-right: 10px; /* Add space between buttons */
+    cursor: pointer;
+}
+
+.add-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+}
+
+    .add-btn:hover {
+        background-color: #45a049; /* Darker Green on hover */
+    }
+
+.delete-btn {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: none;
+}
+
+    .delete-btn:hover {
+        background-color: #d32f2f; /* Darker Red on hover */
+    }
+
+.edit-btn {
+    background-color: #2196F3; /* Blue */
+    color: white;
+    border: none;
+}
+
+    .edit-btn:hover {
+        background-color: #1976D2; /* Darker Blue on hover */
+    }
+
+/* Styles for the modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
