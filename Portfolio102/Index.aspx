@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="mediaquery.css" />
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+       
   </head>
   <body>
     <section id = "home">
@@ -23,9 +24,12 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#activities">Extracurricular Activities</a></li>
+            <li><a href="login.aspx" onclick="toggleMenu()">Login</a></li>
         </ul>
       </div>
     </nav>
+
+ 
     <nav id="hamburger-nav">
       <div class="logo">Sumaiya Rahim</div>
       <div class="hamburger-menu">
@@ -40,13 +44,17 @@
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
           <li><a href="#activities" onclick="toggleMenu()">Extracurricular Activities</a></li>
+              <li><a href="login.aspx" onclick="toggleMenu()">Login</a></li>
+          
           <li style="padding-top: 10px;"><a href="#home" onclick="toggleMenu()"><h3><b>Back</b></h3></a></li>
         </div>
       </div>
     </nav>
+         
   </section>
 
     <section id="profile">
+        
         <div class="section__pic-container">
           <img
            src="./assets/sharee.jpg";
@@ -306,6 +314,7 @@
          <div class="column right">
         <div class="text">Message me</div>
         <form id="contactForm" runat="server">
+            
             <div class="fields">
                 <div class="field name">
                     <asp:TextBox ID="txtName" runat="server" placeholder="Name" required></asp:TextBox>
@@ -323,6 +332,7 @@
             <div class="btn_container_contact">
                 <asp:Button ID="btnSend" runat="server" Text="Send message" CssClass="btn btn-color-1" OnClick="btnSend_Click" />
             </div>
+           
         </form>
     </div>
 </div>
@@ -336,15 +346,20 @@
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#activities">Extracurricular Activities</a></li>
+                        <li><a href="login.aspx" onclick="toggleMenu()">Login</a></li>
                   </ul>
               </div>
           </nav>
+
           <p>Copyright &#169; 2024 Sumaiya Rahim. All Rights Reserved.</p>
       </footer>
+
+        
+        
     </section>
     
     
-  
+   
     <script src="script.js"></script>
     </body>
 </html>

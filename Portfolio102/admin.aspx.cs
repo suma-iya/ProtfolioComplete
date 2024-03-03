@@ -594,6 +594,15 @@ namespace Portfolio102
             }
         }
 
+        protected void logoutButton_Click(object sender, EventArgs e)
+        {
+
+            Session.Clear();
+            // Perform any logout actions, such as clearing session or authentication cookies
+
+            // Redirect the user to the login page
+            Response.Redirect("login.aspx");
+        }
 
 
         protected void deleteActivity_Click(object sender, EventArgs e)

@@ -5,6 +5,17 @@
     background-color: #D5E1E4; /* Light gray background */
 }
 
+.logout-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
 h1 {
     text-align: center;
     margin-bottom: 70px;

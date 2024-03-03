@@ -14,7 +14,9 @@
     <script src="admin.js"></script>
 </head>
 <body>
+
     <form id="form1" runat="server">
+         <asp:Button ID="logoutButton" runat="server" Text="Log Out" CssClass="logout-btn" OnClick="logoutButton_Click" />
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
         <h1>Admin Panel</h1>
         <div class="section">

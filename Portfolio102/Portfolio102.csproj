@@ -98,6 +98,8 @@
     <Content Include="assets\sharee.jpg" />
     <Content Include="assets\th.jpeg" />
     <Content Include="Index.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="mediaquery.css" />
     <Content Include="script.js" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
@@ -116,6 +118,13 @@
     </Compile>
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
